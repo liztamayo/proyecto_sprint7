@@ -30,6 +30,8 @@ if hist_button:
     # 'use_container_width=True' ajusta el ancho del gráfico al contenedor
     st.plotly_chart(fig, use_container_width=True)
 
+    print("Como se podrá ver en el histograma, muestra la frecuencia de la distribución del Odómetro, la mayor frecuencia radica en 82 k y 142 k")
+
 if disp_button:
     # Escribir un mensaje en la aplicación
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
@@ -43,3 +45,5 @@ if disp_button:
 
     # Mostrar el gráfico Plotly
     st.plotly_chart(fig, use_container_width=True)
+
+    print("Como se podrá ver en el histograma, muestra la dispersión de los datos, la mayor parte de los datos se encuentran en la zona izquierda inferior")
